@@ -13,7 +13,7 @@ const navigator = createStackNavigator(
   {
     initialRouteName: "List",
     defaultNavigationOptions: {
-      title: "React Native",
+      title: "The GabeBois",
     },
   }
 );
