@@ -1,10 +1,19 @@
 import React from "react";
-import { Text, StyleSheet, View } from "react-native";
+import { Text, StyleSheet, View, Button, TouchableOpacity } from "react-native";
 
-const HomeScreen = () => {
+const HomeScreen = ({ navigation }) => {
   return (
     <View>
-      <Text style={styles.text}>React Native</Text>
+      <Text style={styles.text}>The Gabe Bois</Text>
+      <Button
+        onPress={() => navigation.navigate("Components")}
+        title="Go to Components Demo"
+      />
+      <TouchableOpacity onPress={() => navigation.navigate("List")}>
+        <Text>Go to List Demo</Text>
+        <Text>Go to List Demo</Text>
+        <Text>Go to List Demo</Text>
+      </TouchableOpacity>
     </View>
   );
 };
@@ -16,3 +25,8 @@ const styles = StyleSheet.create({
 });
 
 export default HomeScreen;
+
+// Button is self-closing and takes in title prop for button text
+// Takes onPress prop that takes in a function to execute some logic
+
+// TouchableOpacity is not self-closing
