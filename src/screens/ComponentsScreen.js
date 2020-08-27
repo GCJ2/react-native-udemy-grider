@@ -1,15 +1,16 @@
-import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import React from 'react';
+import { StyleSheet, Text, View } from 'react-native';
 
 const ComponentsScreen = () => {
-  const greeting = "Hi there!";
+  const greeting = 'Hi there!';
   const newTextBlock = <Text>This is a text block</Text>;
-  const myName = "Greg";
+  const myName = 'Greg';
 
   return (
     <View>
       <Text style={styles.header}>Getting started with React Native!</Text>
       <Text style={styles.subHeader}>My name is {myName}</Text>
+      <Text>This is more text</Text>
     </View>
   );
 };
@@ -18,11 +19,11 @@ export default ComponentsScreen;
 
 const styles = StyleSheet.create({
   header: {
-    fontSize: 45,
+    fontSize: 45
   },
   subHeader: {
-    fontSize: 20,
-  },
+    fontSize: 20
+  }
 });
 
 // <Text> is a primitive React Native element
