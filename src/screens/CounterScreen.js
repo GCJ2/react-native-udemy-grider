@@ -5,10 +5,6 @@ const CounterScreen = () => {
   let count = 0;
   const [counter, setCounter] = useState(0);
 
-  const incrementCount = () => {
-
-  };
-
   return (
     <View>
       <Button title='Increase'
