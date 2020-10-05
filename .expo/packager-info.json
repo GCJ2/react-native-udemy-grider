@@ -2,5 +2,8 @@
   "devToolsPort": 19002,
   "expoServerPort": 19000,
   "packagerPort": 19001,
-  "packagerPid": 18900
+  "packagerPid": 18900,
+  "expoServerNgrokUrl": "https://vr-cyh.anonymous.react-native-udemy-grider.exp.direct",
+  "packagerNgrokUrl": "https://packager.vr-cyh.anonymous.react-native-udemy-grider.exp.direct",
+  "ngrokPid": 4424
 }
