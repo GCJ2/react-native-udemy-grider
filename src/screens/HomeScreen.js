@@ -18,16 +18,24 @@ const HomeScreen = ({ navigation }) => {
         title="Go to Image Screen"
       />
       <Button
-        onPress={() => navigation .navigate('Counter')}
+        onPress={() => navigation.navigate('Counter')}
         title="Go to Counter Demo"
       />
       <Button
-        onPress={() => navigation .navigate('Color')}
+        onPress={() => navigation.navigate('Color')}
         title="Go to Color Demo"
       />
       <Button
-        onPress={() => navigation .navigate('Square')}
+        onPress={() => navigation.navigate('Square')}
         title="Go to Square Demo"
+      />
+      <Button
+        onPress={() => navigation.navigate('Text')}
+        title="Go to Text Demo"
+      />
+      <Button
+        onPress={() => navigation.navigate('Box')}
+        title="Go to Box Demo"
       />
       {/* <TouchableOpacity onPress={() => navigation.navigate("List")}>
         <Text>Go to List Demo</Text>
@@ -40,8 +48,8 @@ const HomeScreen = ({ navigation }) => {
 
 const styles = StyleSheet.create({
   text: {
-    fontSize: 30,
-  },
+    fontSize: 30
+  }
 });
 
 export default HomeScreen;
